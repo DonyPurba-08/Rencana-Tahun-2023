@@ -57,7 +57,7 @@ require'koneksi.php';
                         alert('userbaru berhasil ditambahkan');
                    </script> ";
 			
-			echo"dony";
+			
                 }
 
     }
