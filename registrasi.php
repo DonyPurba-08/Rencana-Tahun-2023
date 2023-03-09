@@ -40,6 +40,7 @@ require'koneksi.php';
             $username = strtolower(stripslashes($_POST["username"]));
             $password = mysqli_real_escape_string($koneksi, $_POST["password"]);
             $cpassword = mysqli_real_escape_string($koneksi,$_POST["cpassword"]);
+	    
 
 
 
@@ -55,6 +56,8 @@ require'koneksi.php';
 
                         alert('userbaru berhasil ditambahkan');
                    </script> ";
+			
+			echo"dony";
                 }
 
     }
